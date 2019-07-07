@@ -19,6 +19,7 @@ public class Army extends Military{
 		super(personalDetails, joinDate);
 		Company = company;
 		this.rank = rank;
+		this.salary = rank.getRate();
 		this.discharged = false;
 	}
 	

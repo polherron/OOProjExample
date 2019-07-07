@@ -23,7 +23,7 @@ public class Navy extends Military {
 		super(personalDetails, joinDate);
 		ShipName = shipName;
 		this.rank = rank;
-		this.salary = rank.getRank();
+		this.salary = rank.getRate();
 	}
 	/**
 	 * @return the shipName

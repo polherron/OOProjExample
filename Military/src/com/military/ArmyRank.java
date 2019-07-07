@@ -8,6 +8,7 @@ public enum ArmyRank {
 	public double getRate() {
 		return this.rate;
 	}
+	
 
 	// enum constructor - cannot be public or protected
 	private ArmyRank(Double rate) 
